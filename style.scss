@@ -1,0 +1,116 @@
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .loginTittle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .login-Page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    width: 55%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+
+  input {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .btnLog {
+    background-color: rgb(79, 47, 241);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 45px;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .btnLog:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .registerTittle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .register-Page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    width: 55%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+  }
+
+  input {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .btnRegister {
+    background-color: rgb(79, 47, 241);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 45px;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+ 
+
+  .btnRegister{
+    background-color: black;
+    color: white;
+  }
+
+    .btnUpdate {
+    
+    background-color: rgb(79, 47, 241);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 100px;
+    height: 45px;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-transform: uppercase;
+    
+  }
+
+  .btnUpdate:hover {
+    background-color: black;
+    color: white;
+  }
+
+}
